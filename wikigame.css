@@ -1,0 +1,41 @@
+#wg_toolbar, 
+#wg_toolbar_default
+{
+	width: 100%;
+	max-width: 100%;
+	padding: 10px;
+	height: 20px;
+	position: absolute;
+	float: left;
+	top: -40px;
+	left: 0;
+	background-color: white;
+	border-bottom: 1px solid lightgray;
+	color: #333;
+	font-weight: bold;
+	z-index:10000;
+}
+
+#wg_title {
+	float: right;
+	width: 150px;
+	right: 0px;
+}
+
+#wg_click_count,
+#wg_start_word,
+#wg_end_word
+{
+	color: red;
+	font-size: 16px;
+}
+
+#wg_click_display {
+	font-size: 16px;
+	float: left;
+}
+
+body.mediawiki {
+	position: absolute;
+	top: 40px;
+}
